@@ -28,6 +28,10 @@ C++ object-oriented library containing implementation of core AndroidAuto(tm) fu
  - Control channel
  - Input channel
 
+### Build
+ - docker build -t aasdk/aasdk:0.1 -f Dockerfile .
+ - docker run -it --rm --name=openauto --mount type=bind,source=${PWD},target=/src aasdk/aasdk:0.1 bash
+
 ### License
 GNU GPLv3
 
